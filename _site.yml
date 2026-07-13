@@ -1,3 +1,25 @@
-name: "we-are-getting-married"
-output_dir: docs
-
+name: "wearegettingmarried.fyi"
+output_dir: "docs"
+navbar:
+  title: "a+A are getting married!"
+  left:
+    - text: "info"
+      href: index.html
+    - text: "schedule"
+      href: schedule.html    
+    - text: "travel"
+      href: travel.html
+    - text: "faq"
+      href: faq.html
+    - text: "reno reccs"
+      href: recs.html
+    - text: "rsvp"
+      href: rsvp.html
+    - text: "registry"
+      href: registry.html
+output:
+  html_document:
+    css: styles.css
+    theme: cosmo
+    
+    
