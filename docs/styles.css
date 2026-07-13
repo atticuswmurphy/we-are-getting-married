@@ -1,0 +1,52 @@
+/* 1. Import BOTH Google Fonts at the very top */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Montserrat:wght@400;500;600&display=swap');
+
+/* 2. Center the main page content */
+.main-container {
+  max-width: 650px !important; 
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* 3. Body Text (Palatino) */
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+}
+
+/* 4. Page Headers (Josefin Sans) */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Josefin Sans', sans-serif !important;
+  font-weight: 600 !important;
+  /* I added these two lines to make the headers look like formal invitations! 
+     Delete them if you prefer standard lowercase headers. */
+  text-transform: uppercase !important; 
+  letter-spacing: 2px !important; 
+}
+
+/* 5. Navbar Background (Lilac) */
+.navbar {
+  background-color: #C8A2C8 !important; 
+  border: none !important; 
+}
+
+/* 6. Navbar Text (Montserrat) */
+.navbar-brand,
+.navbar-nav > li > a {
+  font-family: 'Montserrat', sans-serif !important;
+  color: #333333 !important; 
+  letter-spacing: 1px !important; /* Adds a little breathing room */
+}
+
+/* 7. Navbar Hover & Active States (Fixes the black background issue) */
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  background-color: transparent !important; 
+  color: #ffffff !important; 
+}
+
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+  background-color: #B38CB3 !important; /* Darker Lilac */
+  color: #ffffff !important; 
+}
